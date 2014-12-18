@@ -91,6 +91,10 @@ GEM
     erubis (2.7.0)
     excon (0.42.1)
     execjs (2.2.2)
+    faraday (0.9.0)
+      multipart-post (>= 1.2, < 3)
+    faraday_middleware (0.9.1)
+      faraday (>= 0.7.4, < 0.10)
     fission (0.5.0)
       CFPropertyList (~> 2.2)
     fog (1.25.0)
@@ -197,6 +201,7 @@ GEM
     minitest (5.5.0)
     multi_json (1.10.1)
     multi_xml (0.5.5)
+    multipart-post (2.0.0)
     net-scp (1.2.1)
       net-ssh (>= 2.6.5)
     net-ssh (2.9.1)
@@ -207,6 +212,9 @@ GEM
       nokogiri
       rbvmomi
     orm_adapter (0.5.0)
+    parse-ruby-client (0.3.0)
+      faraday
+      faraday_middleware
     pg (0.17.1)
     polyamorous (1.1.0)
       activerecord (>= 3.0)
@@ -304,6 +312,7 @@ DEPENDENCIES
   grape-entity
   jbuilder (~> 2.0)
   jquery-rails
+  parse-ruby-client
   pg
   rails (= 4.1.7)
   rails_12factor
