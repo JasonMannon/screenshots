@@ -28,6 +28,7 @@ gem 'devise'
 gem 'grape'
 gem 'grape-entity'
 gem "parse-ruby-client"
+gem "twitter-bootstrap-rails"
 gem 'rails_12factor', group: :production
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0',          group: :doc
