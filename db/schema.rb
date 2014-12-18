@@ -16,7 +16,7 @@ ActiveRecord::Schema.define(version: 20141218004408) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "screen_shots", force: true do |t|
+  create_table "screens", force: true do |t|
     t.integer "sequence"
     t.string  "image_uid"
     t.string  "image_name"

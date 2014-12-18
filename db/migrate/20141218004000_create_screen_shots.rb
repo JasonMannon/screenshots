@@ -1,6 +1,6 @@
 class CreateScreenShots < ActiveRecord::Migration
   def change
-    create_table :screen_shots do |t|
+    create_table :screens do |t|
       t.column :sequence, :int
     end
   end

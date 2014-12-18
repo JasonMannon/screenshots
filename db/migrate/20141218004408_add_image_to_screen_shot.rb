@@ -1,6 +1,6 @@
 class AddImageToScreenShot < ActiveRecord::Migration
   def change
-    add_column :screen_shots, :image_uid,  :string
-    add_column :screen_shots, :image_name, :string
+    add_column :screens, :image_uid,  :string
+    add_column :screens, :image_name, :string
   end
 end
