@@ -25,6 +25,8 @@ gem 'dragonfly-s3_data_store'
 gem 'dotenv-rails', :groups => [:development, :test]
 gem 'activeadmin', github: 'activeadmin'
 gem 'devise'
+gem 'grape'
+gem 'grape-entity'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0',          group: :doc
 
